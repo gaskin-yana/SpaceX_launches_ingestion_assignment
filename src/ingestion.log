@@ -16,3 +16,75 @@
 2025-04-26 18:15:22,288 - INFO - Successfully fetched latest launch data from SpaceX API.
 2025-04-26 18:15:22,316 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
 2025-04-26 18:15:22,317 - WARNING - Launch data invalid or fetch failed. Skipping ingestion.
+2025-04-26 19:53:05,191 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 19:53:05,212 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 19:53:50,389 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 19:53:50,410 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 19:53:50,411 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 20:04:35,228 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:03:09,549 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:03:09,589 - ERROR - Database error while creating aggregation view: cannot change data type of view column "average_launch_delay_minutes" from numeric to text
+
+2025-04-26 21:03:09,628 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:03:09,629 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:03:11,220 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:03:11,236 - ERROR - Database error while creating aggregation view: cannot change data type of view column "average_launch_delay_minutes" from numeric to text
+
+2025-04-26 21:03:11,252 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:03:11,253 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:04:41,540 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:04:41,567 - ERROR - Database error while creating aggregation view: cannot change data type of view column "average_launch_delay_minutes" from numeric to text
+
+2025-04-26 21:04:41,583 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:04:41,584 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:05:12,550 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:05:12,568 - ERROR - Database error while creating aggregation view: column "float" does not exist
+LINE 12:                 FLOAT AS delay_minutes 
+                         ^
+
+2025-04-26 21:05:12,585 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:05:12,585 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:05:32,360 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:05:32,387 - ERROR - Database error while creating aggregation view: cannot change data type of view column "average_launch_delay_minutes" from numeric to text
+
+2025-04-26 21:05:32,418 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:05:32,419 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:05:57,592 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:05:57,659 - ERROR - Database error while creating aggregation view: cannot change data type of view column "average_launch_delay_minutes" from numeric to text
+
+2025-04-26 21:05:57,704 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:05:57,706 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:07:41,504 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:07:41,561 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-26 21:07:41,587 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:07:41,588 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:09:14,528 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:09:14,575 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-26 21:09:14,610 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:09:14,611 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:09:17,032 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:09:17,065 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-26 21:09:17,081 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:09:17,083 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:09:32,168 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:09:32,249 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-26 21:09:32,286 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:09:32,288 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:10:06,749 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:10:06,776 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-26 21:10:06,812 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 21:10:06,813 - WARNING - Launch data already exists. No insertion needed.
+2025-04-26 21:10:06,855 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-26 21:10:06,858 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-26 21:10:06,858 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-26 21:10:06,860 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-26 21:10:06,860 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-26 21:10:06,862 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-26 21:10:06,862 - INFO - Running Analytics: Launch Site Utilization
+2025-04-26 21:10:06,863 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-26 21:11:18,464 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 21:11:18,512 - INFO - Aggregation view launch_aggregates_view created successfully.

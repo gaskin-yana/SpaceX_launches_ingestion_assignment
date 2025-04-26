@@ -68,6 +68,21 @@ docker-compose up --build
 ```
 
 
+Metrics:
+## Notes on Launch Delay Metric
+
+The SpaceX API (`https://api.spacexdata.com/v4/launches/latest`) does not provide a separate field for the actual launch time versus the scheduled launch time.  
+Typically, the `date_utc` field represents the intended scheduled launch time, and it may be updated to reflect actual launch time after execution.
+
+For the purpose of this project:
+
+- `date_utc` is treated as both the scheduled and actual launch time.
+- No actual delay calculation is performed, and the `average_launch_delay_minutes` metric is set to `NULL` accordingly.
+- In a real-world production system, enrichment from additional external feeds or manual updates would be required to accurately compute launch delays.
+
+This approach ensures data integrity and avoids misrepresenting metrics based on incomplete source data.
+
+
 TODO:
 - add instalation of docker for ubuntu
 - add explanation about different os

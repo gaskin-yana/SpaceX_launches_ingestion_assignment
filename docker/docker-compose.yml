@@ -27,6 +27,7 @@ services:
     build:
       context: ../src
     container_name: ingestion
+    restart: "no"
     depends_on:
       - postgres
     environment:

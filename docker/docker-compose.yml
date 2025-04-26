@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: spacex
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  trino:
+    image: trinodb/trino:latest
+    container_name: trino
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./trino/etc/catalog:/etc/trino/catalog
+
+  ingestion:
+    build:
+      context: ../src
+    container_name: ingestion
+    depends_on:
+      - postgres
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=spacex
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+
+
+volumes:
+  postgres_data:
+

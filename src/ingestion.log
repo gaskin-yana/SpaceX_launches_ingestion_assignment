@@ -1,0 +1,18 @@
+2025-04-26 18:07:24,153 - INFO - success_statusfully fetched latest launch data from SpaceX API.
+2025-04-26 18:07:24,202 - ERROR - \u274c Database error: no results to fetch
+2025-04-26 18:07:24,203 - WARNING - Launch data invalid or fetch failed. Skipping ingestion.
+2025-04-26 18:12:58,022 - INFO - success_statusfully fetched latest launch data from SpaceX API.
+2025-04-26 18:12:58,044 - INFO - Launch 62dd70d5202306255024d139 already exists. Skipping insertion.
+2025-04-26 18:12:58,045 - WARNING - Launch data invalid or fetch failed. Skipping ingestion.
+2025-04-26 18:14:12,116 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 18:14:12,179 - INFO - Launch 62dd70d5202306255024d139 already exists.
+2025-04-26 18:14:12,181 - WARNING - Launch data invalid or fetch failed. Skipping ingestion.
+2025-04-26 18:14:52,328 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 18:14:52,402 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex.
+2025-04-26 18:14:52,404 - WARNING - Launch data invalid or fetch failed. Skipping ingestion.
+2025-04-26 18:15:02,931 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 18:15:02,959 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex DB.
+2025-04-26 18:15:02,960 - WARNING - Launch data invalid or fetch failed. Skipping ingestion.
+2025-04-26 18:15:22,288 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-26 18:15:22,316 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-26 18:15:22,317 - WARNING - Launch data invalid or fetch failed. Skipping ingestion.

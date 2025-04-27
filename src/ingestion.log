@@ -88,3 +88,381 @@ HINT:  No function matches the given name and argument types. You might need to 
 
 2025-04-26 21:11:18,464 - INFO - Successfully fetched latest launch data from SpaceX API.
 2025-04-26 21:11:18,512 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 10:35:28,238 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 10:35:28,322 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 10:35:28,357 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 10:35:28,358 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 10:35:28,373 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 10:35:28,391 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 10:35:28,392 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 10:35:28,395 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 10:35:28,395 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 10:35:28,397 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 10:35:28,398 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 10:35:28,399 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 11:17:16,890 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 11:17:16,960 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 11:26:56,719 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 11:26:56,769 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 11:26:56,799 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 11:26:56,800 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 11:26:56,815 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 11:26:56,821 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 11:26:56,822 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 11:26:56,823 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 11:26:56,823 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 11:26:56,825 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 11:26:56,825 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 11:26:56,829 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 11:41:30,029 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 11:41:30,064 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 11:41:30,106 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 11:41:30,107 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 11:41:30,137 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 11:41:30,141 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 11:41:30,141 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 11:41:30,143 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 11:41:30,143 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 11:41:30,144 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 11:41:30,144 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 11:41:30,145 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 11:46:22,859 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 11:46:22,908 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 11:46:22,967 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 11:46:22,968 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 11:46:22,994 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 11:46:22,999 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 11:46:22,999 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 11:46:23,001 - ERROR - Database error while running analytics: function array_length(jsonb, integer) does not exist
+LINE 7:             array_length(raw_data->'payloads', 1) * (2000 + ...
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 11:47:51,328 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 11:47:51,388 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 11:47:51,406 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 11:47:51,407 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 11:47:51,420 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 11:47:51,423 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 11:47:51,423 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 11:47:51,425 - ERROR - Database error while running analytics: function jsonb_array_length(jsonb, integer) does not exist
+LINE 7:             jsonb_array_length(raw_data->'payloads', 1) * (2...
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 11:48:25,556 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 11:48:25,625 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 11:48:25,646 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 11:48:25,647 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 11:48:25,675 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 11:48:25,678 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 11:48:25,678 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 11:48:25,679 - ERROR - Database error while running analytics: function array_length(jsonb, integer) does not exist
+LINE 10:                         array_length(raw_data->'payloads', 1...
+                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:08:56,576 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:08:56,576 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:08:56,597 - ERROR - Database error while creating aggregation view: syntax error at or near "]"
+LINE 7:     ]                   simulated_payload_mass,
+            ^
+
+2025-04-27 12:08:56,633 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 12:08:56,634 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:08:56,649 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:08:56,653 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:08:56,653 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:08:56,655 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:08:56,655 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:08:56,657 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:08:56,657 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:08:56,658 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:09:25,529 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:09:25,529 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:09:25,548 - ERROR - Database error while creating aggregation view: column "simulated_payload_mass" does not exist
+LINE 7:                         simulated_payload_mass,
+                                ^
+
+2025-04-27 12:09:25,575 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 12:09:25,578 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:09:25,604 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:09:25,606 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:09:25,606 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:09:25,608 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:09:25,608 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:09:25,610 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:09:25,610 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:09:25,611 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:10:16,368 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:10:16,369 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:10:16,415 - ERROR - Database error while creating aggregation view: column "simulated_total_payload_mass_kg" does not exist
+LINE 7:                         simulated_total_payload_mass_kg,
+                                ^
+
+2025-04-27 12:10:16,454 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 12:10:16,455 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:10:16,470 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:10:16,473 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:10:16,473 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:10:16,475 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:10:16,475 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:10:16,476 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:10:16,476 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:10:16,478 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:10:18,227 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:10:18,227 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:10:18,260 - ERROR - Database error while creating aggregation view: column "simulated_total_payload_mass_kg" does not exist
+LINE 7:                         simulated_total_payload_mass_kg,
+                                ^
+
+2025-04-27 12:10:18,290 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 12:10:18,291 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:10:18,325 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:10:18,328 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:10:18,328 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:10:18,330 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:10:18,330 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:10:18,331 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:10:18,331 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:10:18,332 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:12:49,215 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:12:49,215 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:12:49,259 - ERROR - Database error while creating aggregation view: column "simulated_total_payload_mass_kg" does not exist
+LINE 7:                         simulated_total_payload_mass_kg,
+                                ^
+
+2025-04-27 12:12:49,328 - ERROR - Database error: syntax error at or near ")"
+LINE 8:         );
+                ^
+
+2025-04-27 12:12:49,328 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:12:49,366 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:12:49,372 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:12:49,372 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:12:49,376 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:12:49,376 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:12:49,379 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:12:49,379 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:12:49,381 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:13:31,744 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:13:31,745 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:13:31,791 - ERROR - Database error while creating aggregation view: column "simulated_total_payload_mass_kg" does not exist
+LINE 7:                         simulated_total_payload_mass_kg,
+                                ^
+
+2025-04-27 12:13:31,831 - ERROR - Database error: syntax error at or near ")"
+LINE 8:         );
+                ^
+
+2025-04-27 12:13:31,831 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:13:31,859 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:13:31,863 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:13:31,863 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:13:31,865 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:13:31,865 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:13:31,865 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:13:31,867 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:13:31,867 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:15:07,461 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:15:07,521 - ERROR - Database error while creating aggregation view: relation "raw_launches" does not exist
+LINE 9:                     FROM raw_launches
+                                 ^
+
+2025-04-27 12:15:07,568 - ERROR - Database error: syntax error at or near ")"
+LINE 8:         );
+                ^
+
+2025-04-27 12:15:07,569 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:15:07,600 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:15:07,602 - ERROR - Database error while running analytics: relation "raw_launches" does not exist
+LINE 7:             FROM raw_launches
+                         ^
+
+2025-04-27 12:15:50,612 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:15:50,641 - ERROR - Database error while creating aggregation view: relation "raw_launches" does not exist
+LINE 9:                     FROM raw_launches
+                                 ^
+
+2025-04-27 12:16:06,964 - ERROR - Database error: syntax error at or near ")"
+LINE 7:         );
+                ^
+
+2025-04-27 12:21:19,664 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:21:19,722 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 12:21:19,742 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 12:21:19,743 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:21:19,756 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:21:19,759 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:21:19,759 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:21:19,761 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:21:19,761 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:21:19,762 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:21:19,762 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:21:19,763 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:22:19,723 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:22:19,751 - ERROR - Database error while creating aggregation view: relation "raw_launches" does not exist
+LINE 9:                     FROM raw_launches
+                                 ^
+
+2025-04-27 12:22:19,778 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 12:22:19,781 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:22:19,810 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:22:19,813 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:22:19,813 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:22:19,815 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:22:19,815 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:22:19,817 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:22:19,817 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:22:19,817 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:23:47,010 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:23:47,058 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 12:23:47,074 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 12:23:47,095 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 12:23:47,108 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 12:23:47,111 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 12:23:47,111 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 12:23:47,113 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 12:23:47,113 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 12:23:47,114 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 12:23:47,114 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 12:23:47,115 - ERROR - Database error while running analytics: function round(double precision, integer) does not exist
+LINE 5:             ROUND(AVG(
+                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2025-04-27 12:24:59,389 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:26:39,795 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:26:43,476 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:48:40,987 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:48:41,089 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:50:53,464 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:59:01,513 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 12:59:21,334 - INFO - Launch 62dd70d5202306255024d139 inserted into database.
+2025-04-27 12:59:25,456 - INFO - Ingestion finished successfully.
+2025-04-27 12:59:25,502 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 13:15:43,281 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 13:15:43,300 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 13:15:43,301 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 13:15:43,376 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 13:15:43,397 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 13:15:43,401 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 13:15:43,401 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 13:15:43,403 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 13:15:43,405 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 13:15:43,405 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 13:15:43,405 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 13:15:43,407 - INFO - Completed analytics: Launch Site Utilization
+2025-04-27 13:16:51,139 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 13:16:51,175 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 13:16:51,176 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 13:16:51,255 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 13:16:51,296 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 13:16:51,302 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 13:16:51,303 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 13:16:51,305 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 13:16:51,306 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 13:16:51,307 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 13:16:51,308 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 13:16:51,309 - INFO - Completed analytics: Launch Site Utilization
+2025-04-27 13:31:08,215 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 13:31:08,216 - ERROR - Error fetching launch data: strftime() missing required argument 'format' (pos 1)
+2025-04-27 13:31:08,217 - ERROR - Launch data invalid or fetch failed.
+2025-04-27 13:36:35,755 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 13:36:35,785 - ERROR - Database error: syntax error at or near "simulated_total_payload_mass_kg"
+LINE 5:             simulated_total_payload_mass_kg INTEGER,
+                    ^
+
+2025-04-27 13:36:35,786 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 13:36:35,801 - ERROR - Database error while creating aggregation view: relation "raw_launches" does not exist
+LINE 9:                     FROM raw_launches
+                                 ^
+
+2025-04-27 13:36:35,827 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 13:36:35,828 - ERROR - Database error while running analytics: relation "raw_launches" does not exist
+LINE 7:             FROM raw_launches
+                         ^
+
+2025-04-27 13:37:04,560 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 13:37:04,581 - ERROR - Database error: syntax error at or near "simulated_total_payload_mass_kg"
+LINE 5:             simulated_total_payload_mass_kg INTEGER,
+                    ^
+
+2025-04-27 13:37:04,581 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 13:37:04,598 - ERROR - Database error while creating aggregation view: relation "raw_launches" does not exist
+LINE 9:                     FROM raw_launches
+                                 ^
+
+2025-04-27 13:37:04,623 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 13:37:04,625 - ERROR - Database error while running analytics: relation "raw_launches" does not exist
+LINE 7:             FROM raw_launches
+                         ^
+
+2025-04-27 13:38:41,812 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 13:38:41,875 - INFO - Launch 62dd70d5202306255024d139 inserted into database.
+2025-04-27 13:38:41,883 - INFO - Ingestion finished successfully.
+2025-04-27 13:38:41,917 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 13:38:41,953 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 13:38:41,957 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 13:38:41,957 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 13:38:41,958 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 13:38:41,958 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 13:38:41,960 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 13:38:41,960 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 13:38:41,961 - INFO - Completed analytics: Launch Site Utilization
+2025-04-27 14:04:28,551 - INFO - Successfully fetched latest launch data from SpaceX API.
+2025-04-27 14:04:28,600 - INFO - Launch 62dd70d5202306255024d139 already exists in spacex database.
+2025-04-27 14:04:28,601 - WARNING - Launch data already exists. No insertion needed.
+2025-04-27 14:04:28,642 - INFO - Aggregation view launch_aggregates_view created successfully.
+2025-04-27 14:04:28,658 - INFO - Running Analytics: Launch Performance Over Time
+2025-04-27 14:04:28,666 - INFO - Completed analytics: Launch Performance Over Time
+2025-04-27 14:04:28,666 - INFO - Running Analytics: Top 5 Payload Masses
+2025-04-27 14:04:28,667 - INFO - Completed analytics: Top 5 Payload Masses
+2025-04-27 14:04:28,667 - INFO - Running Analytics: Launch Delay Breakdown
+2025-04-27 14:04:28,669 - INFO - Completed analytics: Launch Delay Breakdown
+2025-04-27 14:04:28,669 - INFO - Running Analytics: Launch Site Utilization
+2025-04-27 14:04:28,672 - INFO - Completed analytics: Launch Site Utilization

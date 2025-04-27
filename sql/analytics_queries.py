@@ -41,26 +41,32 @@ def run_analytics_queries():
         """
 
         # 2. Top 5 Payload Masses
+        '''
+        Simulate total payload mass because SpaceX API/latest does not provide payload mass in the "payloads" array (only IDs)
+        '''
         query_2 = """
-        SELECT
-            id,
-            raw_data->>'name' AS mission_name,
-            (
-                SELECT SUM((payload->>'mass_kg')::FLOAT)
-                FROM jsonb_array_elements(raw_data->'payloads') AS payload(payload)
-                WHERE (payload->>'mass_kg') IS NOT NULL
-            ) AS total_payload_mass_kg
-        FROM raw_launches
-        ORDER BY total_payload_mass_kg DESC
-        LIMIT 5;
+        WITH ranked_launches as (
+            SELECT 
+                id,
+                raw_data->>'name' as mission_name,
+                simulated_total_payload_mass_kg,
+                RANK() OVER (ORDER BY simulated_total_payload_mass_kg DESC) AS launch_rank
+            FROM raw_launches)
+            SELECT id,
+                mission_name,
+                simulated_total_payload_mass_kg,
+                launch_rank
+            FROM ranked_launches
+            WHERE launch_rank <= 5
+            ORDER BY launch_rank;
         """
 
         # 3. Launch Delay Breakdown
         query_3 = """
-        WITH parsed AS (
+         WITH parsed AS (
             SELECT
                 EXTRACT(YEAR FROM (raw_data->>'date_utc')::TIMESTAMP) AS launch_year,
-                (EXTRACT(EPOCH FROM (now() - (raw_data->>'date_utc')::TIMESTAMP)) / 3600) AS delay_hours
+                (simulated_delay_minutes::NUMERIC) / 60 AS delay_hours
             FROM raw_launches
         )
         SELECT
@@ -77,13 +83,8 @@ def run_analytics_queries():
         SELECT
             raw_data->'launchpad' AS launch_site_id,
             COUNT(*) AS total_launches,
-            ROUND(AVG(
-                (
-                    SELECT SUM((payload->>'mass_kg')::FLOAT)
-                    FROM jsonb_array_elements(raw_data->'payloads') AS payload(payload)
-                    WHERE (payload->>'mass_kg') IS NOT NULL
-                )
-            ), 2) AS average_payload_mass_kg
+            ROUND(AVG(simulated_total_payload_mass_kg
+            )::numeric, 5) AS average_payload_mass_kg
         FROM raw_launches
         GROUP BY launch_site_id
         ORDER BY total_launches DESC;
